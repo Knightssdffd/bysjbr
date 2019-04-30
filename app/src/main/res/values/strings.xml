@@ -19,5 +19,8 @@
     <string name="null_hint">账号或密码不能为空</string>
     <string name="not_equal_hint">两次输入的密码需保持一致</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

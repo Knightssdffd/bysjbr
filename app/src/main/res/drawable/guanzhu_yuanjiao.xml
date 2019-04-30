@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#3F3F3F"/>
+    <corners android:topLeftRadius="3dp"
+        android:topRightRadius="3dp"
+        android:bottomLeftRadius="3dp"
+        android:bottomRightRadius="3dp"/>
+
+</shape>
+
+<!--
+    //或者将这段换成下面这个也可以达到效果
+<corners android:radius="8dp"/>-->
