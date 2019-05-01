@@ -1,6 +1,7 @@
 package com.example.aksy.myapplication.fragment;
 
 
+import android.content.Intent;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.widget.Toast;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.example.aksy.myapplication.R;
+import com.example.aksy.myapplication.activity.DetailsActivity;
 import com.example.aksy.myapplication.adapter.HomeAdapter;
 import com.example.aksy.myapplication.base.CommodityBase;
 
@@ -15,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * 展示页面
  */
 public class HomeFragment extends BaseFragment {
     private List<CommodityBase> commodityList = new ArrayList<>();
@@ -41,6 +43,8 @@ public class HomeFragment extends BaseFragment {
             @Override
             public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
                 Toast.makeText(mActivity, "onItemClick" + position, Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getActivity(), DetailsActivity.class));
+
             }
         });
 

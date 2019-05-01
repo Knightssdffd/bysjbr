@@ -3,7 +3,7 @@ package com.example.aksy.myapplication.adapter;
 
 import android.support.annotation.Nullable;
 import android.util.Log;
-import android.widget.ImageView;
+
 import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;

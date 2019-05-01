@@ -63,7 +63,9 @@
             android:orientation="vertical">
 
             <!--头像 名字 信息栏-->
-            <include layout="@layout/page_app_info_01218" />
+            <include
+                android:id="@+id/details_info"
+                layout="@layout/page_app_info_01218" />
 
             <LinearLayout
                 android:layout_width="match_parent"
